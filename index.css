@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: #019765c4;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 95vh;
+    flex-direction: column;
+}
+.header{
+    font-size: 45px;
+    margin-bottom: 25px;
+    color: #043021;
+    user-select: none;
+}
+.password{
+    width: 250px;
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: none;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.submit{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    word-spacing: 2px;
+    font-family: 'Comfortaa', cursive;
+    user-select: none;
+    cursor: pointer; 
+
+}
+.submit:hover{
+    background-color: #07583d;
+    color: white;
+}
+marquee{
+    margin-top: 50px;
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
